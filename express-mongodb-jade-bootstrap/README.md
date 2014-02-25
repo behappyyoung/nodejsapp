@@ -6,4 +6,6 @@ mongo
 
 use nodetest
 
+
+/// 
 db.usercollection.insert({ "username" : "testuser", "email" : "testuser@youngpark.com" })
