@@ -3,7 +3,7 @@
  */
 
 exports.index = function(req, res){
-  res.render('index', { title: ' Express - MongoDb - Bootstrap' });
+  res.render('index', { title: ' Express - MongoDb - Jade - Bootstrap' });
 };
 
 exports.helloworld = function(req, res){

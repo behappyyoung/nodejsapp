@@ -1,9 +1,16 @@
 extends layout
 
 block content
-    h1= title
-    form#formAddUser(name="adduser",method="post",action="/adduser")
-        input#inputUserName(type="text", placeholder="username", name="username")
-        input#inputUserEmail(type="text", placeholder="useremail", name="useremail")
-        button#btnSubmit(type="submit") submit
+	h1= title
+	.col-sm-12
+		.col-sm-4
+			form#formAddUser(name="adduser",method="post",action="/adduser")
+			input#inputUserName.input-control(type="text", placeholder="username", name="username")
+			br
+			input#inputName.input-control(type="text", placeholder="name", name="name")
+			br
+			input#inputUserEmail(type="text", placeholder="useremail", name="useremail")
+			br
+			button#btnSubmit(type="submit") submit
+      
 
