@@ -1,0 +1,14 @@
+.hero-unit
+  h2 All PersonalDetails
+  != linkTo('Create a new PersonalDetail', addPersonalDetailPath, {class: 'btn pull-right'})
+
+div#personalDetails-list
+  if personalDetails
+    each personalDetail in personalDetails
+      .row.list-item(id="personalDetail-" + personalDetail.id)
+        .span8
+          h3!= linkTo(personalDetail.id, personalDetailPath(personalDetail.id))
+        .span4
+          h3
+            i.icon-list-alt
+            = personalDetail.id

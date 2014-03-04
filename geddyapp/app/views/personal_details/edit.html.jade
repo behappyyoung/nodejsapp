@@ -1,0 +1,15 @@
+.hero-unit
+  form#personalDetail-form.form-horizontal(action="/personal_details/" + params.id + "?_method=PUT", method="POST")
+    fieldset
+      legend Update this PersonalDetail
+      if params.errors
+        .control-group
+          ul
+          for err in params.errors
+            li= err
+
+      != partial('form', {personalDetail: personalDetail})
+
+      .form-actions
+        != contentTag('input', 'Save', {type: 'submit', class: 'btn btn-primary'})
+        != contentTag('button', 'Remove', {type: 'submit', formaction: '/personal_details/' + params.id + '?_method=DELETE', formmethod: 'POST', class: 'btn btn-danger'})

@@ -1,0 +1,15 @@
+.hero-unit
+  h2.id= personalDetail.id
+  != linkTo('Edit this personalDetail', editPersonalDetailPath(params.id), {class: 'btn pull-right'})
+  != linkTo('Back to list', personalDetailPath(''), {class: 'btn pull-right'})
+
+h2 PersonalDetail Properties
+each property, key in personalDetail
+  if key !== 'saved'
+    .row.list-item
+      .span4
+        h3= key
+      .span8
+        h3
+          i.icon-list-alt
+          span(class=key)= property

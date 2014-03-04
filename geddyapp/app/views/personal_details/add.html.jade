@@ -1,0 +1,14 @@
+.hero-unit
+  form#personalDetail-form.form-horizontal(action="/personal_details", method="POST")
+    fieldset
+      legend Create a new PersonalDetail
+      if params.errors
+        .control-group
+          ul
+          for err in params.errors
+            li= err
+
+      != partial('form', {personalDetail: params})
+
+      .form-actions
+        != contentTag('input', 'Add', {type: 'submit', class: 'btn btn-primary'})
