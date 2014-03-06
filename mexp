@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo mongoexport --db $1 -c $2 --out dbdata/$1.$2.json
+
+mongoexport --db $1 -c $2 --out dbdata/$1.$2.json

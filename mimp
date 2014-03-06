@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo mongoimport --db $1 --collection $2 --file dbdata/$1.$2.json
+
+mongoimport --db $1 --collection $2 --file dbdata/$1.$2.json
+
+
