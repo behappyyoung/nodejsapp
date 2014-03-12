@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/express-mongodb/views/header.jade" line="2" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="91805a16-041a-4209-ae97-1966a52f6756" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/express-mongodb-angularjs/app.js" afterPath="$PROJECT_DIR$/express-mongodb-angularjs/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/express-mongodb-jade-bootstrap/app.js" afterPath="$PROJECT_DIR$/express-mongodb-jade-bootstrap/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/express-mongodb-angularjs/routes/index.js" afterPath="$PROJECT_DIR$/express-mongodb-angularjs/routes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/express-mongodb-jade-bootstrap/routes/index.js" afterPath="$PROJECT_DIR$/express-mongodb-jade-bootstrap/routes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/express-mongodb-jade-bootstrap/views/layout.jade" afterPath="$PROJECT_DIR$/express-mongodb-jade-bootstrap/views/layout.jade" />
     </list>
     <ignored path="nodejsapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,91 +29,95 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="layout.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/express-mongodb/views/layout.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.jade" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/express-mongodb/views/header.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="22" selection-start="659" selection-end="659" vertical-scroll-proportion="0.27162978" vertical-offset="0" max-vertical-offset="994">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userlist.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/express-mongodb/views/userlist.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap-theme.min.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/express-mongodb/public/stylesheets/bootstrap-theme.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="4860" selection-start="5002" selection-end="5008" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/express-mongodb/app.js">
+        <entry file="file://$PROJECT_DIR$/express-mongodb-jade-bootstrap/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+            <state line="14" column="43" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="211" max-vertical-offset="795">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newuser.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/express-mongodb-jade-bootstrap/views/newuser.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="50" selection-start="442" selection-end="442" vertical-scroll-proportion="-7.8" vertical-offset="0" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/express-mongodb/routes/index.js">
+        <entry file="file://$PROJECT_DIR$/express-mongodb-jade-bootstrap/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="0" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="945">
+            <state line="32" column="21" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1005">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/express-mongodb-jade-bootstrap/views/layout.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="82" selection-start="292" selection-end="292" vertical-scroll-proportion="-5.4" vertical-offset="0" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/express-mongodb/views/footer.jade">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/express-mongodb-angularjs/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="240">
+            <state line="14" column="40" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap-responsive.min.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/express-mongodb/public/stylesheets/bootstrap-responsive.min.css">
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/express-mongodb-angularjs/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="16849" selection-end="16849" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="225">
+            <state line="35" column="38" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="945">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jade" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/express-mongodb-angularjs/views/index.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="30" selection-end="65" vertical-scroll-proportion="0.078809105" vertical-offset="0" max-vertical-offset="571">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/express-mongodb/views/index.jade">
+      <file leaf-file-name="header.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/express-mongodb-angularjs/views/header.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="23" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
+            <state line="3" column="21" selection-start="117" selection-end="117" vertical-scroll-proportion="-1.8" vertical-offset="0" max-vertical-offset="450">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.min.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/express-mongodb/public/stylesheets/bootstrap.min.css">
+      <file leaf-file-name="userlist.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/express-mongodb-angularjs/views/userlist.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="57663" selection-start="57778" selection-end="57811" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="225">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/express-mongodb-jade-bootstrap/routes/user.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
               <folding />
             </state>
           </provider>
@@ -136,14 +141,19 @@
         <option value="$PROJECT_DIR$/express-mongodb/views/footer.jade" />
         <option value="$PROJECT_DIR$/express-mongodb/routes/index.js" />
         <option value="$PROJECT_DIR$/express-mongodb/views/header.jade" />
+        <option value="$PROJECT_DIR$/express-mongodb-jade-bootstrap/app.js" />
+        <option value="$PROJECT_DIR$/express-mongodb-jade-bootstrap/routes/index.js" />
+        <option value="$PROJECT_DIR$/express-mongodb-jade-bootstrap/views/layout.jade" />
+        <option value="$PROJECT_DIR$/express-mongodb-angularjs/app.js" />
+        <option value="$PROJECT_DIR$/express-mongodb-angularjs/routes/index.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
-    <option name="y" value="24" />
-    <option name="width" value="1619" />
-    <option name="height" value="1176" />
+    <option name="x" value="-1231" />
+    <option name="y" value="32" />
+    <option name="width" value="1227" />
+    <option name="height" value="742" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -171,7 +181,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -190,8 +199,59 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodejsapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodejsapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="express-mongodb-angularjs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodejsapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodejsapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="express-mongodb-angularjs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodejsapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodejsapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="express-mongodb-angularjs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,6 +260,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../javascriptsamplecodes" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -210,23 +278,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -248,14 +308,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="24" width="1619" height="1176" extended-state="4" />
-    <editor active="false" />
+    <frame x="-1231" y="32" width="1227" height="742" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20408164" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26938775" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -263,11 +324,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -287,147 +347,83 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/express-mongodb/views/layout.jade">
+    <entry file="file://$PROJECT_DIR$/express-mongodb-jade-bootstrap/views/userlist.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1052">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-mongodb/views/header.jade">
+    <entry file="file://$PROJECT_DIR$/express-mongodb-jade-bootstrap/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="22" selection-start="659" selection-end="659" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="450">
+        <state line="14" column="43" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="211" max-vertical-offset="795">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-mongodb/views/userlist.jade">
+    <entry file="file://$PROJECT_DIR$/express-mongodb-jade-bootstrap/views/newuser.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+        <state line="13" column="50" selection-start="442" selection-end="442" vertical-scroll-proportion="-7.8" vertical-offset="0" max-vertical-offset="330">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-mongodb/public/stylesheets/bootstrap-theme.min.css">
+    <entry file="file://$PROJECT_DIR$/express-mongodb-jade-bootstrap/routes/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4860" selection-start="5002" selection-end="5008" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1052">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-mongodb/app.js">
+    <entry file="file://$PROJECT_DIR$/express-mongodb-jade-bootstrap/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+        <state line="32" column="21" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1005">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express-mongodb-jade-bootstrap/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="82" selection-start="292" selection-end="292" vertical-scroll-proportion="-5.4" vertical-offset="0" max-vertical-offset="375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-mongodb/routes/index.js">
+    <entry file="file://$PROJECT_DIR$/express-mongodb-angularjs/views/userlist.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="945">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="584">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-mongodb/views/footer.jade">
+    <entry file="file://$PROJECT_DIR$/express-mongodb-angularjs/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="240">
+        <state line="14" column="40" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-mongodb/public/stylesheets/bootstrap-responsive.min.css">
+    <entry file="file://$PROJECT_DIR$/express-mongodb-angularjs/views/header.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="16849" selection-end="16849" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="225">
+        <state line="3" column="21" selection-start="117" selection-end="117" vertical-scroll-proportion="-1.8" vertical-offset="0" max-vertical-offset="450">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-mongodb/views/index.jade">
+    <entry file="file://$PROJECT_DIR$/express-mongodb-angularjs/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="23" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
-          <folding />
+        <state line="35" column="38" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="945">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-mongodb/public/stylesheets/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/express-mongodb-angularjs/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="57663" selection-start="57778" selection-end="57811" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/express-mongodb/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="1" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/express-mongodb/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1007">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/express-mongodb/public/stylesheets/bootstrap-theme.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4860" selection-start="5002" selection-end="5008" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/express-mongodb/public/stylesheets/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="57663" selection-start="57778" selection-end="57811" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/express-mongodb/views/footer.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/express-mongodb/public/stylesheets/bootstrap-responsive.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="16849" selection-end="16849" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/express-mongodb/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/express-mongodb/views/userlist.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="982">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/express-mongodb/views/layout.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/express-mongodb/views/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="23" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/express-mongodb/views/header.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="22" selection-start="659" selection-end="659" vertical-scroll-proportion="0.27162978" vertical-offset="0" max-vertical-offset="994">
+        <state line="3" column="0" selection-start="30" selection-end="65" vertical-scroll-proportion="0.078809105" vertical-offset="0" max-vertical-offset="571">
           <folding />
         </state>
       </provider>

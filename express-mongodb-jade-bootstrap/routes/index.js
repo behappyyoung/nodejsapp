@@ -12,7 +12,9 @@ exports.helloworld = function(req, res){
 
 exports.userlist = function(db) {
     return function(req, res) {
-        var collection = db.get('usercollection');
+        console.error(req);
+        console.error(res);
+        var collection = db.get('users');
         collection.find({},{},function(e,docs){
             res.render('userlist', {
                 "userlist" : docs
@@ -28,12 +30,14 @@ exports.newuser = function(req, res){
 exports.adduser = function(db) {
     return function(req, res) {
 
+        console.error(req);
+        console.error(res);
         // Get our form values. These rely on the "name" attributes
         var userName = req.body.username;
         var userEmail = req.body.useremail;
 
         // Set our collection
-        var collection = db.get('usercollection');
+        var collection = db.get('users');
 
         // Submit to the DB
         collection.insert({

@@ -12,7 +12,7 @@ exports.helloworld = function(req, res){
 
 exports.userlist = function(db) {
     return function(req, res) {
-        var collection = db.get('usercollection');
+        var collection = db.get('users');
         collection.find({},{},function(e,docs){
             res.render('userlist', {
                 "userlist" : docs
@@ -33,7 +33,7 @@ exports.adduser = function(db) {
         var userEmail = req.body.useremail;
 
         // Set our collection
-        var collection = db.get('usercollection');
+        var collection = db.get('users');
 
         // Submit to the DB
         collection.insert({
