@@ -1,0 +1,9 @@
+{
+  "name": "Control",
+  "dependencies": {
+    "jquery": "= 2.1.1",
+    "jquery-cookie": "= 1.4.1",
+    "firebase": "= 1.0.15"
+  },
+  "private": true
+}
