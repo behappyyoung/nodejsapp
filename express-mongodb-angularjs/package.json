@@ -6,9 +6,10 @@
     "start": "node app.js"
   },
   "dependencies": {
+    "angular": "^1.5.5",
     "express": "3.4.8",
     "jade": "*",
-    "mongodb":"*",
-    "monk":"*"	
+    "mongodb": "*",
+    "monk": "*"
   }
 }
