@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  .container              
+    h1 Say something meaningful here.
+    p.lead Say something worthwhile here.
+    a(href="/") Go home
+    br
+    a(href="/ping") Ping
+    br
+    br
+    if (!user)
+      a(href="/login") Login
+      br
+      a(href="/register") Register
+    if (user)
+      p You are currently logged in as #{user.username}
+      a(href="/logout") Logout
+
+  script
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("active");
+    });
+

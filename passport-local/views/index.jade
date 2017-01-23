@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  .container              
+    h1 Say something meaningful here.
+    p.lead Say something worthwhile here.
+
+
+  script
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("active");
+    });
+
